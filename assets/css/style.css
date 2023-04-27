@@ -1,0 +1,658 @@
+/*Gerais*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p,
+li {
+    color: #444;
+    font-size: 14px;
+}
+
+/*Navbar*/
+header,
+.navbar {
+    background-color: #353D41;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 50px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #FFF;
+}
+
+.nav-link {
+    color: #FFF;
+}
+
+.nav-link:hover {
+    color: #c9b9b9;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+/*Slide*/
+.carousel-caption p {
+    color: #FFF;
+}
+
+#carouselExampleIndicators img {
+    height: 80vh;
+}
+
+#carouselExampleIndicators .carousel-caption {
+    top: 35%;
+}
+
+#carouselExampleIndicators .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#carouselExampleIndicators .carousel-caption .main-btn {
+    font-size: 22px;
+    color: #FFF;
+}
+
+.carousel-inner p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+.main-btn {
+    background-color: #65DAF9;
+    color: #FFF;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: .3s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    background-color: transparent;
+    border: solid;
+    border-color: #65DAF9;
+}
+
+.carousel-indicators .active {
+    background-color: #65DAF9;
+}
+
+/*SOBRE A EMPRESA*/
+
+#about-area {
+    background-color: #F9F9F9;
+}
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60%;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list li i {
+    color: #1cc609;
+}
+
+/*SERVIÇOS*/
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.service-box h4 {
+    color: #444;
+}
+
+.service-box:hover>i,
+.service-box:hover>h4 {
+    transition: 0.2s;
+    color: #65DAF9;
+    cursor: pointer;
+}
+
+/*CIRCULOS DE DADOS*/
+
+.circle-box div {
+    padding: 0 40px;
+}
+
+.progressbar-text {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p {
+    color: #FFF;
+    font-size: 26px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*GOSTA DE DESAFIOS?*/
+
+#apply-area {
+    height: 500px;
+
+}
+
+#apply-area .container-fluid,
+#apply-area .row {
+    height: 100%;
+    padding: 0;
+
+}
+
+#apply-area .apply-box {
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#apply-area #pattern-img p,
+h4 {
+    color: #FFF;
+}
+
+#pattern-img p {
+    margin-top: 25px;
+}
+
+#apply-btn {
+    display: block;
+    margin-top: 50px;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: solid #FFF;
+    transition: 0.5s;
+}
+
+#apply-btn:hover {
+    background-color: #65DAF9;
+    color: #444;
+    border-color: #65DAF9;
+}
+
+#company-img {
+    background-image: url('/assets/img/empresa.jpg');
+    background-size: cover;
+
+}
+
+/*CONHEÇA NOSSOS PROJETOS*/
+
+#portfolio-area .filter-btn {
+    border: none;
+    transition: 0.8s;
+    border: 1px solid #333;
+    background-color: transparent;
+    color: #333;
+    min-width: 100px;
+    width: auto;
+    margin: 7px;
+    margin-bottom: 35px;
+    line-height: 30px;
+    outline: none;
+}
+
+#portfolio-area #filter-btn-box button:hover {
+    background-color: transparent;
+    color: #FFF;
+    background: #333;
+    border: 1px solid #333;
+}
+
+#portfolio-area .project-box {
+    margin-bottom: 30px;
+
+}
+
+#portfolio-area #filter-btn-box {
+    text-align: center;
+}
+
+#portfolio-area .filter-btn.active {
+    color: #FFF;
+    background-color: #333;
+}
+
+/*FIQUE POR DENTRO*/
+#pordentro-area {
+    background: #F1F1F1;
+    text-align: center;
+}
+
+#pordentro-area .texto {
+    width: 100%;
+}
+
+.texto p {
+    margin-bottom: 45px;
+    font-size: 18px;
+}
+
+#email-input {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #65DAF9;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+    box-shadow: none;
+
+}
+
+#news-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #65DAF9;
+    border: 1px solid #65DAF9;
+    color: #FFF;
+    padding: 0 30px;
+    height: 40px;
+    margin-left: -30px;
+    transition: 0.5s;
+    position: absolute;
+    margin-left: -130px;
+}
+
+#news-btn:hover {
+    background-color: #444;
+    color: #FFF;
+}
+
+#call-area .container {
+    padding: 40px 100px;
+
+}
+
+
+/*DESEJA FAZER UM ORÇAMENTO?*/
+#call-area {
+    background-color: #65DAF9;
+    text-align: center;
+
+}
+
+#call-area p {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: auto;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    display: inline;
+
+}
+
+#call-btn {
+    background-color: #FFF;
+    color: #65DAF9;
+    border: 4px solid #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+#call-btn:hover {
+    border: 4px solid #65DAF9;
+    background-color: #F9F9F9;
+}
+
+/*ENTRE EM CONTATO*/
+
+#contact-area {
+    text-align: center;
+}
+
+.textoazul {
+    color: #65DAF9;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+.contact-box p {
+    font-size: 19px;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3EC1D5;
+}
+
+.contact-box i {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #444;
+    border: 1px solid #444;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+/*FORMULARIO*/
+
+.botao3 {
+    display: block;
+    margin-top: 20px;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #65DAF9;
+    border: solid #FFF;
+    transition: 0.5s;
+}
+
+.botao3:hover {
+    background-color: #F9F9F9;
+    color: #444;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #F1F1F1;
+}
+
+footer .container {
+
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+
+
+/*RESPONSIVO*/
+
+@media(max-width: 768px) {
+
+    /*geral*/
+    .container {
+        padding: 20px 0;
+    }
+
+    /*slider*/
+    #carouselExampleIndicators .carousel-inner,
+    #carouselExampleIndicators .carousel-item {
+        height: auto;
+    }
+
+    #carouselExampleIndicators .carousel-caption h2 {
+        font-size: 28px;
+    }
+
+    #carouselExampleIndicators .carousel-caption p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    /*SOBRE A EMPRESA*/
+
+    .img-fluid {
+        margin-top: 80px;
+    }
+
+    /*CIRCULOS*/
+
+    #data-area {
+        height: 250px;
+    }
+
+    #data-area p {
+        font-size: 16px;
+    }
+
+    .circle-box div {
+        padding: 0 20px;
+        margin-top: 25px;
+    }
+
+    /*NOSSO TIME*/
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 13px;
+    }
+
+    /*GOSTA DE DESAFIOS?*/
+    #apply-area .apply-box {
+        padding: 65px 20px;
+
+    }
+
+    /*CONHEÇA NOSSOS PROJETOS*/
+
+    .project-box .img-fluid {
+        margin: 0;
+    }
+
+    .project-box {
+        margin-bottom: 0;
+        padding: 10px;
+    }
+
+    #call-area p {
+        font-size: 15px;
+    }
+
+    /*FIQUE POR DENTRO*/
+    #email-input {
+        width: 470px;
+
+    }
+
+    /*DESEJA FAZER UM ORÇAMENTO?*/
+    #call-area .container {
+        padding: 30px;
+    }
+
+    /*ENTRE EM CONTATO*/
+
+    .textoazul {
+        color: #65DAF9;
+        font-size: 15px;
+        font-weight: bold;
+
+    }
+
+    .contact-box p {
+        font-size: 15px;
+    }
+
+    @media(max-width: 425px) {
+
+        /*SLIDER*/
+        #carouselExampleIndicators {
+            margin-top: 60px;
+        }
+
+        #carouselExampleIndicators .carousel-item {
+            height: 300px;
+        }
+
+        #carouselExampleIndicators .carousel-caption {
+            top: 5%;
+        }
+
+        #carouselExampleIndicators .carousel-caption h2 {
+            font-size: 18px;
+            margin-top: 50px;
+            margin-bottom: 40px;
+        }
+
+        #carouselExampleIndicators .carousel-caption p {
+            display: none;
+        }
+
+        #carouselExampleIndicators .carousel-caption .main-btn {
+
+            font-size: 14px;
+        }
+
+        /*SOBRE A FLECAVO*/
+        #about-area .img-fluid {
+            margin-top: 0;
+        }
+
+        .about-title {
+            margin-top: 15px;
+        }
+
+        /*NOSSAS ESPECIALIDADES*/
+        .services-area .main-title::after,
+        #portfolio-area .main-title::after,
+        #contact-area .main-title::after {
+            margin-top: 40px;
+        }
+
+        /*CIRCULO DE DADOS*/
+
+        #data-area {
+            height: 500px;
+        }
+
+        .circle-box {
+            width: 50%;
+        }
+
+        .progressbar-text {
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        #data-area p {
+            font-size: 17px;
+            margin-top: 17px;
+        }
+
+        /*NOSSO TIME*/
+
+        #team-area .col-md-3 {
+            width: 50%;
+            margin-bottom: 15px;
+        }
+
+        #team-area .col1 {
+            margin-top: 30px;
+        }
+
+        /*GOSTA DE DESAFIOS?*/
+        #company-img {
+            display: none;
+        }
+
+        /*CONHEÇA NOSSOS PROJETOS*/
+        #portfolio-area .col-md-4 {
+            width: 50%;
+            padding: 0 5px;
+            margin-top: 20px;
+        }
+
+        #portfolio-area img {
+            border-radius: 3%
+        }
+
+        #portfolio-area .filter-btn {
+            margin: 4px 4px 4px 4px;
+        }
+
+        /*FIQUE POR DENTRO*/
+        #email-input {
+            width: 300px;
+        }
+
+        /*ENTRE EM CONTATO*/
+        .deixe,
+        .deixe h3 {
+            font-size: 25px;
+            margin-bottom: 25px;
+        }
+    }
+}
